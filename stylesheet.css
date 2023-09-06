@@ -1080,10 +1080,10 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 70px;
+	height: 128px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 70px 128px;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1282,13 +1282,13 @@ audio {
 }
 
 .btn-primary {
-        border-color: #466baf;
+        border-color: #D7DBDA;
         padding: 10px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         color: #fff;
-        background-color: #466baf;
+        background-color: #95A5B4;
 }
     .btn-primary:hover,
     .btn-primary:focus,
