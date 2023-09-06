@@ -196,9 +196,9 @@ $('document').ready(function(){
 		var i;
 
 		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut('slow').delay(1000).promise().done(function(){
+			$("p:nth-child("+i+")").fadeOut('slow').delay(1500).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(1200);
+			$("p:nth-child("+i+")").fadeIn('slow').delay(2000);
 			if(i==80){
 				$("p:nth-child(79)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
